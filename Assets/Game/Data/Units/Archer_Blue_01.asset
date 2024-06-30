@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf258b471e598d14a82762a7818db632, type: 3}
+  m_Name: Archer_Blue_01
+  m_EditorClassIdentifier: 
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  Color: {r: 0.34901962, g: 0.6, b: 0.87843144, a: 1}
+  MaxHealth: 60
+  TargetPosition: {x: 0, y: 0, z: 100}
+  MoveSpeed: 0.25
+  RotationSpeed: 4
+  RadarRange: 10
+  AttackRange: 3
+  AttackDelay: 1.5
+  Damage: 3

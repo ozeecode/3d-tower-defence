@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae7629194100e98468d69d1a7a2350eb, type: 3}
+  m_Name: Level_04
+  m_EditorClassIdentifier: 
+  Waves:
+  - Units:
+    - enemyPf:
+      - {fileID: 2275283703426557089, guid: 291f1762a3074b44392878b8d89dfcd6, type: 3}
+      - {fileID: 7529790429003755034, guid: d8ca33645445caa48a2d057af010a60f, type: 3}
+      - {fileID: 2532792567453143951, guid: 8947b3de0dc5fbf4c8bc9cce566b00c0, type: 3}
+      count: 15
+      spawnInterval: 0.77
+    delay: 2.4
+    TotalUnitCount: 15
+  - Units:
+    - enemyPf:
+      - {fileID: 7529790429003755034, guid: d8ca33645445caa48a2d057af010a60f, type: 3}
+      - {fileID: 2275283703426557089, guid: 291f1762a3074b44392878b8d89dfcd6, type: 3}
+      count: 20
+      spawnInterval: 1.22
+    delay: 4.1
+    TotalUnitCount: 20
+  - Units:
+    - enemyPf:
+      - {fileID: 2275283703426557089, guid: 291f1762a3074b44392878b8d89dfcd6, type: 3}
+      - {fileID: 7529790429003755034, guid: d8ca33645445caa48a2d057af010a60f, type: 3}
+      count: 22
+      spawnInterval: 1
+    delay: 1.6
+    TotalUnitCount: 22
+  - Units:
+    - enemyPf:
+      - {fileID: 2275283703426557089, guid: 291f1762a3074b44392878b8d89dfcd6, type: 3}
+      - {fileID: 7529790429003755034, guid: d8ca33645445caa48a2d057af010a60f, type: 3}
+      count: 25
+      spawnInterval: 1
+    delay: 1.6
+    TotalUnitCount: 25
+  - Units:
+    - enemyPf:
+      - {fileID: 2275283703426557089, guid: 291f1762a3074b44392878b8d89dfcd6, type: 3}
+      - {fileID: 7529790429003755034, guid: d8ca33645445caa48a2d057af010a60f, type: 3}
+      - {fileID: 2532792567453143951, guid: 8947b3de0dc5fbf4c8bc9cce566b00c0, type: 3}
+      count: 31
+      spawnInterval: 1
+    delay: 0
+    TotalUnitCount: 31

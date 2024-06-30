@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae7629194100e98468d69d1a7a2350eb, type: 3}
+  m_Name: Level_01
+  m_EditorClassIdentifier: 
+  Waves:
+  - Units:
+    - enemyPf:
+      - {fileID: 7529790429003755034, guid: d8ca33645445caa48a2d057af010a60f, type: 3}
+      count: 5
+      spawnInterval: 1.4
+    delay: 3
+    TotalUnitCount: 5
+  - Units:
+    - enemyPf:
+      - {fileID: 7529790429003755034, guid: d8ca33645445caa48a2d057af010a60f, type: 3}
+      count: 5
+      spawnInterval: 1.86
+    delay: 5
+    TotalUnitCount: 5
+  - Units:
+    - enemyPf:
+      - {fileID: 7529790429003755034, guid: d8ca33645445caa48a2d057af010a60f, type: 3}
+      count: 7
+      spawnInterval: 1
+    delay: 0
+    TotalUnitCount: 7
