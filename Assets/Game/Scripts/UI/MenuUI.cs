@@ -1,3 +1,4 @@
+using Cysharp.Threading.Tasks;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -23,8 +24,9 @@ public class MenuUI : PanelUI
         playButton.onClick.RemoveListener(OnStartButtonClick);
         deleteButton.onClick.RemoveListener(OnDeleteButtonClick);
     }
-    private void OnLoadCompleted(GameEvents.OnLoadCompleted load)
+    private async void OnLoadCompleted(GameEvents.OnLoadCompleted load)
     {
+        await UniTask.Delay(100); // quick fix!!!
         if (load.levelIndex == 0)
         {
             playText.text = "Start";
